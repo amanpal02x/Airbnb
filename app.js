@@ -7,7 +7,7 @@ const session = require('express-session');
 const MongoDBStore = require('connect-mongodb-session')(session);
 const { default: mongoose } = require('mongoose');
 const multer = require('multer');
-const DB_PATH = "mongodb+srv://aman9118x4:hello9118@cluster0.xq9nts8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DB_PATH = "";
 
 //Local Module
 const storeRouter = require("./routes/storeRouter")
